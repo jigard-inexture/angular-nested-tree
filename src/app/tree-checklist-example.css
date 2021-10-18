@@ -1,0 +1,137 @@
+.mat-form-field {
+  margin-right: 4px;
+}
+p {
+  font-size: 18px;
+}
+.main-btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.mat-form-field-flex {
+  background-color: #fff !important;
+  padding: 0 !important;
+  border: 1px solid;
+  border-radius: 4px !important;
+}
+.save-delete-btn {
+  padding: 0 !important;
+  background-color: transparent;
+  min-width: auto;
+  line-height: normal;
+}
+.save-delete-btn:hover {
+  background: transparent;
+}
+.save-delete-btn .iconify {
+  font-size: 30px;
+}
+
+.border-outer {
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: fit-content;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.border-outer-hover {
+  width: fit-content;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding-left: 5px;
+}
+.border-outer-hover:hover {
+  border: 1px solid #000;
+  width: fit-content;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+.border-outer-hover .file-folder-btn {
+  background: #d5d5d5 !important;
+  border-radius: 4px;
+  padding: 2px 6px;
+  height: auto;
+  line-height: normal;
+  width: auto;
+  margin: 0 5px;
+}
+
+.border-outer-hover .save-delete-btn {
+  display: none;
+}
+
+.border-outer-hover:hover .save-delete-btn {
+  display: block;
+}
+
+.mat-tree-node {
+  width: fit-content;
+  border: 0;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+
+.border-outer-inner {
+  position: relative;
+
+  width: fit-content;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+  line-height: normal;
+}
+.border-outer-inner:hover {
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.border-outer-inner:hover .delete-icon {
+  display: inline-block;
+}
+.delete-icon {
+  display: none;
+}
+.left-border {
+  position: relative;
+}
+.left-border::after {
+  height: 100%;
+  background: #000;
+  width: 1px;
+  left: -16px;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: -8px;
+}
+.border-outer-inner::before {
+  height: 1px;
+  background: #000;
+  width: 12px;
+  left: -15px;
+  top: 11px;
+  display: inline-block;
+  content: '';
+  position: absolute;
+}
+.title-text .iconify {
+  vertical-align: middle;
+  padding-bottom: 3px;
+}
+.mat-tree-node {
+  min-height: auto;
+}
